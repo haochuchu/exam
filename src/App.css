@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+.alert{
+  display:none;
+}
+.alert{
+  width:600px;
+  height:200px;
+  background:#eee;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-300px;
+}
+.flie_img{
+  margin-top:20px;
+  margin-left:200px;
+}
+.tit{
+  margin-top:20px;
+  margin-left:100px;
+}
+.engo{
+  margin-top:20px;
+  margin-left:200px;
+}
+.ok{
+  margin-top:20px;
+  margin-left:280px;
+}
+.oo{
+  margin-left:200px;
+  margin-top:10px;
+}
+.con{
+  margin-left:100px;
+  margin-top:10px;
+}
