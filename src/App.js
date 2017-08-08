@@ -150,7 +150,7 @@ class App extends Component {
         $.ajax({
             type:"post",
             url:"http://localhost:8200/exam/test3",
-            data:{"title":title7,"content":content8},
+            data:{"id":this.state.id,"title":title7,"content":content8},
             success:function(){
                 $("#ptext").val(title7)
                 $("#xtext").val(content8)
