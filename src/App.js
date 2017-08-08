@@ -72,8 +72,7 @@ class App extends Component {
     super();
     this.state={
       //arr:[1,2,3]
-      test:[],
-      id:null   
+      test:[]
     }
   }
   componentDidMount(){
@@ -173,8 +172,11 @@ class App extends Component {
                   <Link key={i} to={`/id=${v.id}`}>
                     <span>{v.title}</span>
                   </Link>
-                  <button onClick={this.fn}>修改</button>
-                  <button onClick={this.fns}>删除</button>
+                  <div>
+                    <span className="span">{v.id}</span>
+                    <button onClick={this.fn}>修改</button>
+                    <button onClick={this.fns}>删除</button>
+                  </div>
                 </div>
               }.bind(this))}
               <div className="alert">
